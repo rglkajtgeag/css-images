@@ -1,0 +1,47 @@
+body{
+    background-image:Url("./nature.jpg");
+}
+h1{
+    background-color: blue;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.rtl{
+ direction: rtl;
+ text-shadow: 2px 2px 2px greenyellow;
+ text-transform: uppercase;
+ text-decoration:double;
+ text-decoration-line: overline;
+}
+.ltr{
+    direction:ltr;
+    text-shadow: 2px 2px 2px red;
+    text-transform: uppercase;
+    text-decoration:double;
+    text-decoration-line: overline;
+   }
+
+  .image2{
+  object-fit: fill;
+  width:600px;
+  box-shadow: 2px 2px 2px whitesmoke;
+  } 
+  .image1{
+    object-fit:scale-down;
+    width:600px;
+    box-shadow: 2px 2px 2px wheat;
+  }
+  .image3{
+    object-fit:contain;
+    width:600px;
+    box-shadow: 2px 2px 2px wheat;
+    
+  }
+  .loream{
+    background-image: linear-gradient(to right,red,yellow,blue);
+    white-space:inhert;
+    width:40%;
+    box-shadow: 2px 2px 2px red;
+  }
